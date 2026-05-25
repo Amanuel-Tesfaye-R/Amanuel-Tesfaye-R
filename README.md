@@ -56,27 +56,27 @@ I'm a Business Administration student at **American College of Technology (ACT)*
   <table>
     <tr>
       <td align="center">
-        <img src="trophy.svg" width="48" height="48" alt="trophy" />
+        <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/trophy.svg" width="48" height="48" alt="trophy" />
         <br/><b>2nd Place</b>
         <br/><sub>National Science Fair</sub>
       </td>
       <td align="center">
-        <img src="trophy.svg" width="48" height="48" alt="trophy" />
+        <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/trophy.svg" width="48" height="48" alt="trophy" />
         <br/><b>INSA Cyber Talent</b>
         <br/><sub>Program Graduate</sub>
       </td>
       <td align="center">
-        <img src="trophy.svg" width="48" height="48" alt="trophy" />
+        <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/trophy.svg" width="48" height="48" alt="trophy" />
         <br/><b>Computer-Integrated Prosthesis</b>
         <br/><sub>Built & Tested</sub>
       </td>
       <td align="center">
-        <img src="trophy.svg" width="48" height="48" alt="trophy" />
+        <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/trophy.svg" width="48" height="48" alt="trophy" />
         <br/><b>Business Intelligence</b>
         <br/><sub>Certified</sub>
       </td>
       <td align="center">
-        <img src="trophy.svg" width="48" height="48" alt="trophy" />
+        <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/trophy.svg" width="48" height="48" alt="trophy" />
         <br/><b>AI Agent Systems</b>
         <br/><sub>Designed & Deployed</sub>
       </td>
