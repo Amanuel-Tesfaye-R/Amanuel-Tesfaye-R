@@ -90,9 +90,14 @@ I'm a Business Administration student at **American College of Technology (ACT)*
         <sub>Certified</sub>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-standard.svg" width="96" /><br/>
+        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-outline.svg" width="96" /><br/>
         <b>AI Agent Systems</b><br/>
         <sub>Designed & Deployed</sub>
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-shield.svg" width="96" /><br/>
+        <b>5+ Science Fair Certifications</b><br/>
+        <sub>High School Projects & Awards</sub>
       </td>
     </tr>
   </table>
