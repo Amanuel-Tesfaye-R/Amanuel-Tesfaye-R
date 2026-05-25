@@ -54,11 +54,6 @@ Embedded Systems, Arduino, Sensor Integration, Hardware Prototyping
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Amanuel-Tesfaye-R&theme=dark&show_icons=true&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Amanuel-Tesfaye-R&theme=dark&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" height="150" />
-</p>
 
----
 
 *"Technology becomes powerful when business thinking and engineering precision work together."*
