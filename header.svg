@@ -1,68 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58A6FF" />
       <stop offset="100%" stop-color="#00bcd4" />
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#1E2D3D" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#00bcd4" stop-opacity="0.3" />
-    </linearGradient>
   </defs>
 
   <!-- Background -->
-  <rect width="800" height="200" fill="#0D1117" rx="12" />
-
-  <!-- Border -->
-  <rect x="0.5" y="0.5" width="799" height="199" fill="none" stroke="url(#borderGrad)" stroke-width="1" rx="12" />
+  <rect width="800" height="180" fill="#0D1117" rx="8" />
 
   <!-- Subtle dot grid -->
-  <pattern id="dotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="0.6" fill="#1E2D3D" />
+  <pattern id="dotGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.8" fill="#1E2D3D" />
   </pattern>
-  <rect width="800" height="200" fill="url(#dotGrid)" rx="12" />
+  <rect width="800" height="180" fill="url(#dotGrid)" />
 
-  <!-- Top-left corner node -->
-  <circle cx="30" cy="30" r="3" fill="#58A6FF" opacity="0.25" />
-  <path d="M 33 30 L 55 30" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
-  <path d="M 55 30 L 55 50" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
-  <circle cx="55" cy="50" r="1.5" fill="#58A6FF" opacity="0.2" />
+  <!-- Left: embedded circuit path -->
+  <path d="M 30 150 L 70 150 L 90 130 L 140 130 L 160 110 L 200 110" fill="none" stroke="#58A6FF" stroke-width="1.2" opacity="0.3" />
+  <circle cx="30" cy="150" r="2" fill="#58A6FF" opacity="0.4" />
+  <circle cx="200" cy="110" r="2" fill="#58A6FF" opacity="0.4" />
 
-  <!-- Bottom-right corner node -->
-  <circle cx="770" cy="170" r="3" fill="#00bcd4" opacity="0.25" />
-  <path d="M 767 170 L 745 170" fill="none" stroke="#00bcd4" stroke-width="1" opacity="0.2" />
-  <path d="M 745 170 L 745 150" fill="none" stroke="#00bcd4" stroke-width="1" opacity="0.2" />
-  <circle cx="745" cy="150" r="1.5" fill="#00bcd4" opacity="0.2" />
+  <!-- Right: financial chart line -->
+  <path d="M 600 120 L 630 105 L 660 112 L 690 85 L 720 95 L 750 60 L 770 65" fill="none" stroke="#00bcd4" stroke-width="1.2" opacity="0.3" />
+  <circle cx="600" cy="120" r="2" fill="#00bcd4" opacity="0.4" />
+  <circle cx="770" cy="65" r="2" fill="#00bcd4" opacity="0.4" />
 
-  <!-- Left circuit trace -->
-  <path d="M 40 170 L 80 170 L 100 155 L 150 155 L 170 140 L 210 140" fill="none" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
-  <circle cx="40" cy="170" r="2" fill="#58A6FF" opacity="0.3" />
+  <!-- Top accent bar -->
+  <rect x="355" y="40" width="90" height="2" fill="url(#accent)" opacity="0.3" rx="1" />
 
-  <!-- Right chart line -->
-  <path d="M 590 120 L 620 108 L 650 115 L 680 95 L 710 102 L 740 78 L 760 82" fill="none" stroke="#00bcd4" stroke-width="1" opacity="0.2" />
-  <circle cx="760" cy="82" r="2" fill="#00bcd4" opacity="0.3" />
-
-  <!-- First name -->
-  <text x="400" y="78" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="40" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="4">
-    AMANUEL
+  <!-- Name -->
+  <text x="400" y="82" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="46" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="2">
+    Aman
   </text>
 
-  <!-- Last name -->
-  <text x="400" y="112" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="36" font-weight="400" fill="#8B949E" text-anchor="middle" letter-spacing="3">
-    TESFAYE
-  </text>
-
-  <!-- Nickname -->
-  <text x="400" y="132" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="12" fill="#484F58" text-anchor="middle" letter-spacing="2">
-    aman
-  </text>
-
-  <!-- Divider line -->
-  <line x1="310" y1="147" x2="490" y2="147" stroke="url(#accent)" stroke-width="1" opacity="0.5" />
+  <!-- Divider -->
+  <line x1="345" y1="97" x2="455" y2="97" stroke="url(#accent)" stroke-width="1.5" />
 
   <!-- Tagline -->
-  <text x="400" y="170" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" fill="#484F58" text-anchor="middle" letter-spacing="2.5">
-    building at the intersection
+  <text x="400" y="125" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="13" fill="#8B949E" text-anchor="middle" letter-spacing="4">
+    BUILDING AT THE INTERSECTION
+  </text>
+
+  <!-- Location -->
+  <text x="400" y="150" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" fill="#484F58" text-anchor="middle" letter-spacing="3">
+    ADDIS ABABA, ETHIOPIA
   </text>
 </svg>
