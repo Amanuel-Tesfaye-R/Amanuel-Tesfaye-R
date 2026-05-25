@@ -89,6 +89,8 @@ I'm a Business Administration student at **American College of Technology (ACT)*
         <b>Business Intelligence</b><br/>
         <sub>Certified</sub>
       </td>
+    </tr>
+    <tr>
       <td align="center">
         <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-outline.svg" width="96" /><br/>
         <b>AI Agent Systems</b><br/>
@@ -98,6 +100,11 @@ I'm a Business Administration student at **American College of Technology (ACT)*
         <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-shield.svg" width="96" /><br/>
         <b>5+ Science Fair Certifications</b><br/>
         <sub>High School Projects & Awards</sub>
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-globe.svg" width="96" /><br/>
+        <b>Cisco HTML Essentials</b><br/>
+        <sub>Networking Academy 2026</sub>
       </td>
     </tr>
   </table>
