@@ -70,14 +70,14 @@ I'm a Business Administration student at **American College of Technology (ACT)*
   <table>
     <tr>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-award.svg" width="96" /><br/>
-        <b>2nd Place</b><br/>
-        <sub>National Science Fair</sub>
-      </td>
-      <td align="center">
         <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-standard.svg" width="96" /><br/>
         <b>INSA Cyber Talent</b><br/>
         <sub>Program Graduate</sub>
+      </td>
+      <td align="center">
+        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-award.svg" width="96" /><br/>
+        <b>2nd Place</b><br/>
+        <sub>National Science Fair</sub>
       </td>
       <td align="center">
         <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-variant.svg" width="96" /><br/>
