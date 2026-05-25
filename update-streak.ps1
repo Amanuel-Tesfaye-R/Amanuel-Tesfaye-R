@@ -1,3 +1,19 @@
+$startDate = [DateTime]"2026-03-28"
+$today = [DateTime]::UtcNow.Date
+$streak = ($today - $startDate).Days
+if ($streak -lt 1) { $streak = 1 }
+
+function Format-Date($d) {
+    $months = @{1="Jan";2="Feb";3="Mar";4="Apr";5="May";6="Jun";7="Jul";8="Aug";9="Sep";10="Oct";11="Nov";12="Dec"}
+    return "$($d.Day) $($months[$d.Month])"
+}
+
+$endDateStr = Format-Date $today
+$startDateStr = Format-Date $startDate
+$dateRange = "$startDateStr - $endDateStr"
+$totalContrib = 146 + $streak
+
+$svg = @"
 <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='isolation: isolate' viewBox='0 0 500 195' width='500px' height='195px' direction='ltr'>
 <style>
 @keyframes fadein {
@@ -22,13 +38,13 @@
 </g>
 <g style='isolation: isolate'>
 <g transform='translate(83.333333333333, 48)'>
-<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>204</text>
+<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>$totalContrib</text>
 </g>
 <g transform='translate(83.333333333333, 84)'>
 <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>Total Contributions</text>
 </g>
 <g transform='translate(83.333333333333, 114)'>
-<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>28 Mar - Present</text>
+<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>$startDateStr - Present</text>
 </g>
 </g>
 <g style='isolation: isolate'>
@@ -36,7 +52,7 @@
 <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#58a6ff' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>Current Streak</text>
 </g>
 <g transform='translate(250, 145)'>
-<text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>28 Mar - 25 May</text>
+<text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>$dateRange</text>
 </g>
 <g mask='url(#mask_out_ring_behind_fire)'>
 <circle cx='250' cy='71' r='40' fill='none' stroke='#58a6ff' stroke-width='5' style='opacity: 0; animation: fadein 0.5s linear forwards 0.4s'></circle>
@@ -46,19 +62,23 @@
 <path d='M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 C 4.51 16.85 2.36 19 -0.29 19 Z' fill='#58a6ff' stroke-opacity='0'/>
 </g>
 <g transform='translate(250, 48)'>
-<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: fadein 0.6s linear forwards'>58</text>
+<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: fadein 0.6s linear forwards'>$streak</text>
 </g>
 </g>
 <g style='isolation: isolate'>
 <g transform='translate(416.66666666667, 48)'>
-<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>58</text>
+<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>$streak</text>
 </g>
 <g transform='translate(416.66666666667, 84)'>
 <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FEFEFE' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>Longest Streak</text>
 </g>
 <g transform='translate(416.66666666667, 114)'>
-<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>28 Mar - 25 May</text>
+<text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#9E9E9E' stroke='none' font-family='&quot;Segoe UI&quot;, Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>$dateRange</text>
 </g>
 </g>
 </g>
 </svg>
+"@
+
+[System.IO.File]::WriteAllText("streak.svg", $svg, [System.Text.UTF8Encoding]::new($false))
+Write-Output "Streak updated to $streak ($dateRange)"
