@@ -1,16 +1,29 @@
-### Hey, I'm Aman
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Aman;Business+%26+Technology;Full+Stack+Developer;AI+%26+Automation;Embedded+Systems;3D+Modeling+%26+Design" alt="Typing SVG" />
+</p>
 
-Business Administration student at **American College of Technology (ACT)**  
-Full Stack Development Student at **Addis Ababa University (AAU)**  
-Addis Ababa, Ethiopia
+I'm a Business Administration student at **American College of Technology (ACT)** and a Full Stack Development student at **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia.
 
-I build technology that solves real-world problems -- from AI-powered systems and modern web applications to embedded systems and automation tools.
+I build at the intersection of business, engineering, and software -- turning ideas into systems that actually work.
+
+---
+
+### What I Do
+
+- **Financial Market Tool Development** -- Pine Script v6, market structure analysis
+- **Full Stack Web Development** -- React, Node.js, REST APIs
+- **AI Agents & Automation Systems** -- intelligent workflows
+- **Business & Technology Integration** -- strategy meets execution
+- **Embedded Systems Projects** -- hardware that talks to software
+- **3D Modeling & Product Design** -- from concept to prototype
+- **Responsive & Modern UI Design** -- interfaces that feel right
+- **Git/GitHub Workflow & Deployment** -- ship with confidence
 
 ---
 
 ### Languages and Tools
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="45" height="45" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="45" height="45" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45" />
@@ -28,32 +41,33 @@ I build technology that solves real-world problems -- from AI-powered systems an
 
 ---
 
-### What I Build
+### Currently Learning
 
-**Software Development**  
-C, HTML, CSS, JavaScript, React, Node.js, Express.js, REST APIs
-
-**Financial Market Technology**  
-Pine Script v6, Market Structure Analysis, Financial Market Tool Development
-
-**Engineering & Hardware**  
-Embedded Systems, Arduino, Sensor Integration, Hardware Prototyping
-
-**Design & Modeling**  
-3D Modeling, Product Design, Technical Design Thinking
+| Area | Focus |
+| :--- | :--- |
+| **Advanced Full Stack Development** | Scalable architectures, production-ready systems |
+| **AI Systems & Automation** | Intelligent agents, workflow automation |
+| **Embedded Intelligence Systems** | Where hardware meets decision-making |
+| **Business Strategy & Management** | Building that scales beyond code |
 
 ---
 
 ### Achievements
 
-- 2nd Place -- National Science Fair Competition
-- INSA Cyber Talent Program Graduate
-- Built computer-integrated prosthesis
-- Certified in Business Intelligence
-- AI agent systems and automation workflows
+- **2nd Place** -- National Science Fair Competition
+- **INSA Cyber Talent Program** -- Graduate
+- **Computer-Integrated Prosthesis** -- built and tested
+- **Certified in Business Intelligence**
+- **AI Agent Systems** -- designed and deployed automation workflows
 
 ---
 
+### Goals
 
+I aim to combine business knowledge with software engineering, AI, and engineering design to build impactful products, scalable startups, and intelligent systems.
 
-*"Technology becomes powerful when business thinking and engineering precision work together."*
+---
+
+<p align="center">
+  <em>"Technology becomes powerful when business thinking and engineering precision work together."</em>
+</p>
