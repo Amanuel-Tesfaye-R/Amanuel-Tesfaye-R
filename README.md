@@ -68,6 +68,16 @@ I'm a Business Administration student at **American College of Technology (ACT)*
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amanuel-Tesfaye-R&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Amanuel-Tesfaye-R&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=-1" width="100%" />
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/output/snake.svg" alt="Snake animation" />
+</p>
+
 ---
 
 <p align="center">
