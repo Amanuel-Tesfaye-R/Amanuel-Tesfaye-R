@@ -64,17 +64,6 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 ---
 
-### Currently Learning
-
-| Area | Focus |
-| :--- | :--- |
-| Advanced Full Stack Development | Scalable architectures, production-ready systems |
-| AI Systems & Automation | Intelligent agents, workflow automation |
-| Embedded Intelligence Systems | Where hardware meets decision-making |
-| Business Strategy & Management | Building that scales beyond code |
-
----
-
 ### Achievements
 
 <p align="center">
