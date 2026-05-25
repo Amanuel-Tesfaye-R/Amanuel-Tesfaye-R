@@ -26,23 +26,28 @@
   <circle cx="770" cy="65" r="2" fill="#00bcd4" opacity="0.4" />
 
   <!-- Top accent bar -->
-  <rect x="355" y="40" width="90" height="2" fill="url(#accent)" opacity="0.3" rx="1" />
+  <rect x="315" y="40" width="170" height="2" fill="url(#accent)" opacity="0.3" rx="1" />
 
-  <!-- Name -->
-  <text x="400" y="82" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="46" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="2">
-    Aman
+  <!-- First name -->
+  <text x="400" y="72" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="36" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="3">
+    AMANUEL
+  </text>
+
+  <!-- Last name -->
+  <text x="400" y="100" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="30" font-weight="400" fill="#8B949E" text-anchor="middle" letter-spacing="2">
+    TESFAYE
   </text>
 
   <!-- Divider -->
-  <line x1="345" y1="97" x2="455" y2="97" stroke="url(#accent)" stroke-width="1.5" />
+  <line x1="310" y1="118" x2="490" y2="118" stroke="url(#accent)" stroke-width="1" opacity="0.5" />
 
   <!-- Tagline -->
-  <text x="400" y="125" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="13" fill="#8B949E" text-anchor="middle" letter-spacing="4">
-    BUILDING AT THE INTERSECTION
+  <text x="400" y="145" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" fill="#484F58" text-anchor="middle" letter-spacing="2.5">
+    building at the intersection
   </text>
 
   <!-- Location -->
-  <text x="400" y="150" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" fill="#484F58" text-anchor="middle" letter-spacing="3">
+  <text x="400" y="165" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="9" fill="#3D4450" text-anchor="middle" letter-spacing="2.5">
     ADDIS ABABA, ETHIOPIA
   </text>
 </svg>
