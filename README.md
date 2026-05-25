@@ -2,9 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Aman;Business+%26+Technology;Full+Stack+Developer;AI+%26+Automation;Embedded+Systems;3D+Modeling+%26+Design" alt="Typing SVG" />
 </p>
 
-I'm a Business Administration student at **American College of Technology (ACT)** and a Full Stack Development student at **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia.
-
-I build at the intersection of business, engineering, and software -- turning ideas into systems that actually work.
+I'm a Business Administration student at **American College of Technology (ACT)** and a Full Stack Development student at **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I build at the intersection of business, engineering, and software -- turning ideas into systems that actually work.
 
 ---
 
@@ -45,10 +43,10 @@ I build at the intersection of business, engineering, and software -- turning id
 
 | Area | Focus |
 | :--- | :--- |
-| **Advanced Full Stack Development** | Scalable architectures, production-ready systems |
-| **AI Systems & Automation** | Intelligent agents, workflow automation |
-| **Embedded Intelligence Systems** | Where hardware meets decision-making |
-| **Business Strategy & Management** | Building that scales beyond code |
+| Advanced Full Stack Development | Scalable architectures, production-ready systems |
+| AI Systems & Automation | Intelligent agents, workflow automation |
+| Embedded Intelligence Systems | Where hardware meets decision-making |
+| Business Strategy & Management | Building that scales beyond code |
 
 ---
 
@@ -62,9 +60,13 @@ I build at the intersection of business, engineering, and software -- turning id
 
 ---
 
-### Goals
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amanuel-Tesfaye-R&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF" width="100%" />
+</p>
 
-I aim to combine business knowledge with software engineering, AI, and engineering design to build impactful products, scalable startups, and intelligent systems.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amanuel-Tesfaye-R&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
+</p>
 
 ---
 
