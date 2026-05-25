@@ -87,7 +87,7 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 ---
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/streak.svg" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amanuel-Tesfaye-R&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF" width="100%" />
 </p>
 
 <p align="center">
