@@ -52,11 +52,13 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 ### Achievements
 
-- **2nd Place** -- National Science Fair Competition
-- **INSA Cyber Talent Program** -- Graduate
-- **Computer-Integrated Prosthesis** -- built and tested
-- **Certified in Business Intelligence**
-- **AI Agent Systems** -- designed and deployed automation workflows
+<p align="center">
+  <img src="https://img.shields.io/badge/2nd%20Place-National%20Science%20Fair-0D1117?style=for-the-badge&labelColor=58A6FF&logoSize=auto" />
+  <img src="https://img.shields.io/badge/INSA%20Cyber%20Talent-Program%20Graduate-0D1117?style=for-the-badge&labelColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Computer%20Integrated%20Prosthesis-Built%20%26%20Tested-0D1117?style=for-the-badge&labelColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Certified-Business%20Intelligence-0D1117?style=for-the-badge&labelColor=58A6FF" />
+  <img src="https://img.shields.io/badge/AI%20Agent%20Systems-Designed%20%26%20Deployed-0D1117?style=for-the-badge&labelColor=58A6FF" />
+</p>
 
 ---
 
@@ -66,16 +68,6 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amanuel-Tesfaye-R&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Amanuel-Tesfaye-R&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=-1" width="100%" />
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/output/snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
