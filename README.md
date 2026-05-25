@@ -75,7 +75,7 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/output/snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
