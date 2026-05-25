@@ -31,6 +31,7 @@ I'm a Business Administration student at **American College of Technology (ACT)*
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="45" height="45" title="React" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="45" height="45" title="Node.js" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="45" height="45" title="Express.js" style="background: #ffffffcc; border-radius: 4px; padding: 3px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/processing/processing-original.svg" alt="Processing" width="45" height="45" title="Processing" />
 </p>
 
 **Financial Market Technology**
@@ -50,6 +51,8 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original-wordmark.svg" alt="Arduino" width="45" height="45" title="Arduino" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" width="45" height="45" title="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/Visual3D-005A9C?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual3D" title="Visual3D - Skeletal Motion Capture" />
 </p>
 
 **Design & Modeling**
