@@ -1,24 +1,6 @@
 <p align="center">
   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 800 180" style="max-width:800px;">
     <defs>
-      <style>
-        @keyframes fall {
-          0%   { transform: translateY(-20px); opacity: 0; }
-          10%  { opacity: 0.5; }
-          80%  { opacity: 0.5; }
-          100% { transform: translateY(200px); opacity: 0; }
-        }
-        .d1 { animation: fall 2.5s linear infinite; }
-        .d2 { animation: fall 3.8s linear infinite; animation-delay: 0.5s; }
-        .d3 { animation: fall 3.2s linear infinite; animation-delay: 1.2s; }
-        .d4 { animation: fall 4.5s linear infinite; animation-delay: 2s; }
-        .d5 { animation: fall 2.8s linear infinite; animation-delay: 0.8s; }
-        .d6 { animation: fall 3.5s linear infinite; animation-delay: 3s; }
-        .d7 { animation: fall 4s linear infinite; animation-delay: 1.5s; }
-        .d8 { animation: fall 2.2s linear infinite; animation-delay: 2.5s; }
-        .d9 { animation: fall 5s linear infinite; animation-delay: 0.3s; }
-        .d10 { animation: fall 3s linear infinite; animation-delay: 3.5s; }
-      </style>
       <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#58A6FF" />
         <stop offset="100%" stop-color="#00bcd4" />
@@ -29,24 +11,70 @@
       <circle cx="2" cy="2" r="0.8" fill="#1E2D3D" />
     </pattern>
     <rect width="800" height="180" fill="url(#dotGrid)" />
-    <g>
-      <circle cx="40" r="1.5" fill="#58A6FF" class="d1" />
-      <circle cx="90" r="1.2" fill="#00bcd4" class="d2" />
-      <circle cx="140" r="1.5" fill="#58A6FF" class="d3" />
-      <circle cx="190" r="1" fill="#00bcd4" class="d4" />
-      <circle cx="240" r="1.3" fill="#58A6FF" class="d5" />
-      <circle cx="290" r="1" fill="#00bcd4" class="d6" />
-      <circle cx="340" r="1.5" fill="#58A6FF" class="d7" />
-      <circle cx="390" r="1.2" fill="#00bcd4" class="d8" />
-      <circle cx="440" r="1.4" fill="#58A6FF" class="d9" />
-      <circle cx="490" r="1" fill="#00bcd4" class="d10" />
-      <circle cx="540" r="1.3" fill="#58A6FF" class="d1" />
-      <circle cx="590" r="1.5" fill="#00bcd4" class="d3" />
-      <circle cx="640" r="1.1" fill="#58A6FF" class="d5" />
-      <circle cx="690" r="1.4" fill="#00bcd4" class="d2" />
-      <circle cx="740" r="1.2" fill="#58A6FF" class="d8" />
-      <circle cx="780" r="1" fill="#00bcd4" class="d6" />
-    </g>
+    <circle cx="40" r="1.5" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="90" r="1.2" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="3.8s" begin="0.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3.8s" begin="0.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="140" r="1.5" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="3.2s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3.2s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="190" r="1" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="4.5s" begin="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="4.5s" begin="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="240" r="1.3" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="2.8s" begin="0.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="2.8s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="290" r="1" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="3.5s" begin="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3.5s" begin="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="340" r="1.5" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="4s" begin="1.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="390" r="1.2" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="2.2s" begin="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="2.2s" begin="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="440" r="1.4" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="5s" begin="0.3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="5s" begin="0.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="490" r="1" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="3s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3s" begin="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="540" r="1.3" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="2.5s" begin="1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="2.5s" begin="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="590" r="1.5" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="3.2s" begin="0.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3.2s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="640" r="1.1" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="2.8s" begin="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="2.8s" begin="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="690" r="1.4" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="3.8s" begin="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3.8s" begin="1.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="740" r="1.2" fill="#58A6FF">
+      <animate attributeName="cy" values="-20;200" dur="2.2s" begin="3.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="2.2s" begin="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="780" r="1" fill="#00bcd4">
+      <animate attributeName="cy" values="-20;200" dur="3.5s" begin="0.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.8;1" dur="3.5s" begin="0.7s" repeatCount="indefinite" />
+    </circle>
     <path d="M 30 150 L 70 150 L 90 130 L 140 130 L 160 110 L 200 110" fill="none" stroke="#58A6FF" stroke-width="1.2" opacity="0.3" />
     <circle cx="30" cy="150" r="2" fill="#58A6FF" opacity="0.4" />
     <circle cx="200" cy="110" r="2" fill="#58A6FF" opacity="0.4" />
