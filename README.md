@@ -71,7 +71,7 @@ I'm a Business Administration student at **American College of Technology (ACT)*
         <sub>Built & Tested</sub>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-outline.svg" width="72" /><br/>
+        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-medal.svg" width="72" /><br/>
         <b>Business Intelligence</b><br/>
         <sub>Certified</sub>
       </td>
