@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Aman;Business+%26+Technology;Full+Stack+Developer;AI+%26+Automation;Embedded+Systems;3D+Modeling+%26+Design" alt="Typing SVG" />
 </p>
 
-I'm a Business Administration student at **American College of Technology (ACT)** and a Full Stack Development student at **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I build at the intersection of business, engineering, and software — turning ideas into systems that actually work.
+I'm a Business Administration student at **American College of Technology (ACT)** and pursuing Full Stack Development through **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I build at the intersection of business, engineering, and software — turning ideas into systems that actually work.
 
 ---
 
