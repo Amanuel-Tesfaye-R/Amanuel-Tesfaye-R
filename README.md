@@ -8,13 +8,13 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 ### What I Do
 
-- **Financial Market Tool Development** -- Pine Script v6, market structure analysis
-- **Full Stack Web Development** -- React, Node.js, REST APIs
-- **AI Agents & Automation Systems** -- intelligent workflows
 - **Business & Technology Integration** -- strategy meets execution
+- **Financial Market Tool Development** -- Pine Script v6, market structure analysis
 - **Embedded Systems Projects** -- hardware that talks to software
-- **3D Modeling & Product Design** -- from concept to prototype
+- **AI Agents & Automation Systems** -- intelligent workflows
+- **Full Stack Web Development** -- React, Node.js, REST APIs
 - **Responsive & Modern UI Design** -- interfaces that feel right
+- **3D Modeling & Product Design** -- from concept to prototype
 - **Git/GitHub Workflow & Deployment** -- ship with confidence
 
 ---
