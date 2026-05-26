@@ -12,13 +12,6 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
   </defs>
 
   <!-- Background -->
@@ -117,7 +110,7 @@
   <rect x="530" y="70" width="340" height="2" fill="url(#accent)" opacity="0.25" rx="1" />
 
   <!-- ===== PRIMARY TEXT ===== -->
-  <text x="700" y="150" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="76" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="8" filter="url(#softGlow)">AMANUEL</text>
+  <text x="700" y="150" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="76" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="8">AMANUEL</text>
   <text x="700" y="210" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="64" font-weight="300" fill="#8B949E" text-anchor="middle" letter-spacing="7">TESFAYE</text>
 
   <!-- Animated divider line -->
