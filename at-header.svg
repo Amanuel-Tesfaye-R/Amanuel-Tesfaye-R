@@ -90,20 +90,7 @@
   <circle cx="1250" cy="45" r="1.2" fill="#58A6FF"><animate attributeName="opacity" values="0;0.6;0" dur="3.6s" repeatCount="indefinite" begin="3.0s" /></circle>
   <circle cx="1380" cy="55" r="0.9" fill="#00bcd4"><animate attributeName="opacity" values="0;0.5;0" dur="4.0s" repeatCount="indefinite" begin="1.2s" /></circle>
 
-  <!-- ===== PARTICLE SYSTEM IV: DRIFTING ORBITAL (elliptical paths around center) ===== -->
-  <ellipse cx="700" cy="180" rx="500" ry="80" fill="none" stroke="#58A6FF" stroke-width="0.5" opacity="0.08">
-    <animateTransform attributeName="transform" type="rotate" from="0 700 180" to="360 700 180" dur="30s" repeatCount="indefinite" />
-  </ellipse>
-  <circle r="2" fill="#58A6FF">
-    <animateMotion dur="30s" repeatCount="indefinite" path="M 200 180 A 500 80 0 1 1 199.99 180" />
-  </circle>
 
-  <ellipse cx="700" cy="180" rx="380" ry="60" fill="none" stroke="#00bcd4" stroke-width="0.5" opacity="0.06">
-    <animateTransform attributeName="transform" type="rotate" from="360 700 180" to="0 700 180" dur="25s" repeatCount="indefinite" />
-  </ellipse>
-  <circle r="1.5" fill="#00bcd4">
-    <animateMotion dur="25s" repeatCount="indefinite" path="M 320 180 A 380 60 0 1 1 319.99 180" />
-  </circle>
 
   <!-- LEFT CIRCUIT BOARD -->
   <path d="M 50 350 L 100 350 L 140 310 L 200 310 L 240 270 L 310 270" fill="none" stroke="#58A6FF" stroke-width="1.8" opacity="0.35" />
