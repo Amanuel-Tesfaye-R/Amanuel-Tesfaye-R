@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/at-header.svg?v=7" alt="Amanuel Tesfaye" width="100%" />
+  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/at-header.svg" alt="Amanuel Tesfaye" width="100%" />
 </p>
 
 I'm a Business Administration student at **American College of Technology (ACT)** and pursuing Full Stack Development through **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I build at the intersection of business, engineering, and software turning ideas into systems that actually work.
