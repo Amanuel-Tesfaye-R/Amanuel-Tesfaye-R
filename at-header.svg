@@ -1,23 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460">
   <defs>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58A6FF" />
       <stop offset="50%" stop-color="#00bcd4" />
       <stop offset="100%" stop-color="#58A6FF" />
     </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.15" />
+    <linearGradient id="glowCenter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00bcd4" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glowLeft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glowRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00bcd4" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#00bcd4" stop-opacity="0" />
     </linearGradient>
     <filter id="neonGlow">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
     <filter id="softGlow">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="bigGlow">
+      <feGaussianBlur stdDeviation="15" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -26,75 +41,99 @@
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="340" fill="#0D1117" rx="12" />
-  <pattern id="dotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="0.8" fill="#1E2D3D" />
+  <rect width="1400" height="460" fill="#0D1117" rx="12" />
+  <pattern id="dotGrid" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.9" fill="#1E2D3D" />
   </pattern>
-  <rect width="1200" height="340" fill="url(#dotGrid)" />
+  <rect width="1400" height="460" fill="url(#dotGrid)" />
 
-  <!-- Glow dome behind name -->
-  <ellipse cx="600" cy="140" rx="320" ry="100" fill="url(#glow)" />
+  <!-- Ambient side glows -->
+  <rect x="0" y="0" width="300" height="460" fill="url(#glowLeft)" />
+  <rect x="1100" y="0" width="300" height="460" fill="url(#glowRight)" />
 
-  <!-- Falling particles -->
-  <circle cx="60" r="1.8" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="2.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="2.5s" repeatCount="indefinite" /></circle>
-  <circle cx="140" r="1.4" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="3.8s" begin="0.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="3.8s" begin="0.5s" repeatCount="indefinite" /></circle>
-  <circle cx="220" r="2" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="3.2s" begin="1.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="3.2s" begin="1.2s" repeatCount="indefinite" /></circle>
-  <circle cx="300" r="1.2" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="4.5s" begin="2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="4.5s" begin="2s" repeatCount="indefinite" /></circle>
-  <circle cx="380" r="1.6" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="2.8s" begin="0.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="2.8s" begin="0.8s" repeatCount="indefinite" /></circle>
-  <circle cx="460" r="1.3" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="3.5s" begin="3s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="3.5s" begin="3s" repeatCount="indefinite" /></circle>
-  <circle cx="540" r="1.8" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="4s" begin="1.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="1.5s" repeatCount="indefinite" /></circle>
-  <circle cx="600" r="1.5" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="2.2s" begin="2.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="2.2s" begin="2.5s" repeatCount="indefinite" /></circle>
-  <circle cx="660" r="1.7" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="5s" begin="0.3s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="5s" begin="0.3s" repeatCount="indefinite" /></circle>
-  <circle cx="740" r="1.2" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="3s" begin="3.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="3s" begin="3.5s" repeatCount="indefinite" /></circle>
-  <circle cx="820" r="1.6" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="2.5s" begin="1s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="2.5s" begin="1s" repeatCount="indefinite" /></circle>
-  <circle cx="900" r="1.9" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="3.2s" begin="0.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="3.2s" begin="0.2s" repeatCount="indefinite" /></circle>
-  <circle cx="980" r="1.3" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="2.8s" begin="2.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="2.8s" begin="2.2s" repeatCount="indefinite" /></circle>
-  <circle cx="1060" r="1.7" fill="#00bcd4"><animate attributeName="cy" values="-30;370" dur="3.8s" begin="1.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="3.8s" begin="1.8s" repeatCount="indefinite" /></circle>
-  <circle cx="1140" r="1.4" fill="#58A6FF"><animate attributeName="cy" values="-30;370" dur="2.2s" begin="3.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.8;1" dur="2.2s" begin="3.2s" repeatCount="indefinite" /></circle>
+  <!-- Big glow halo behind name -->
+  <ellipse cx="700" cy="180" rx="450" ry="140" fill="url(#glowCenter)" />
 
-  <!-- Left circuit path -->
-  <path d="M 40 260 L 80 260 L 110 230 L 170 230 L 200 200 L 260 200" fill="none" stroke="#58A6FF" stroke-width="1.5" opacity="0.3" />
-  <circle cx="40" cy="260" r="3" fill="#58A6FF" opacity="0.5" />
-  <circle cx="260" cy="200" r="3" fill="#58A6FF" opacity="0.5" />
+  <!-- ===== MASSIVE FALLING PARTICLE RAIN ===== -->
+  <!-- Column 1 -->
+  <circle cx="40" r="2" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="2.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.5s" repeatCount="indefinite" /></circle>
+  <circle cx="100" r="1.5" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="3.8s" begin="0.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.8s" begin="0.5s" repeatCount="indefinite" /></circle>
+  <circle cx="160" r="2.2" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="3.2s" begin="1.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.2s" begin="1.2s" repeatCount="indefinite" /></circle>
+  <circle cx="220" r="1.3" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="4.5s" begin="2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="4.5s" begin="2s" repeatCount="indefinite" /></circle>
+  <circle cx="280" r="1.8" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="2.8s" begin="0.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.8s" begin="0.8s" repeatCount="indefinite" /></circle>
+  <!-- Column 2 -->
+  <circle cx="340" r="1.4" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="3.5s" begin="3s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.5s" begin="3s" repeatCount="indefinite" /></circle>
+  <circle cx="400" r="2" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="4s" begin="1.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="1.5s" repeatCount="indefinite" /></circle>
+  <circle cx="460" r="1.6" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="2.2s" begin="2.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.2s" begin="2.5s" repeatCount="indefinite" /></circle>
+  <circle cx="520" r="1.9" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="5s" begin="0.3s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="5s" begin="0.3s" repeatCount="indefinite" /></circle>
+  <circle cx="580" r="1.3" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="3s" begin="3.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3s" begin="3.5s" repeatCount="indefinite" /></circle>
+  <!-- Column 3 -->
+  <circle cx="640" r="1.7" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="2.5s" begin="1s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.5s" begin="1s" repeatCount="indefinite" /></circle>
+  <circle cx="700" r="2.1" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="3.2s" begin="0.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.2s" begin="0.2s" repeatCount="indefinite" /></circle>
+  <circle cx="760" r="1.5" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="2.8s" begin="2.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.8s" begin="2.2s" repeatCount="indefinite" /></circle>
+  <circle cx="820" r="1.9" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="3.8s" begin="1.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.8s" begin="1.8s" repeatCount="indefinite" /></circle>
+  <circle cx="880" r="1.4" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="2.2s" begin="3.2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.2s" begin="3.2s" repeatCount="indefinite" /></circle>
+  <!-- Column 4 -->
+  <circle cx="940" r="2" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="4.2s" begin="0.6s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="4.2s" begin="0.6s" repeatCount="indefinite" /></circle>
+  <circle cx="1000" r="1.6" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="3s" begin="2.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3s" begin="2.8s" repeatCount="indefinite" /></circle>
+  <circle cx="1060" r="1.3" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="3.6s" begin="1.3s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.6s" begin="1.3s" repeatCount="indefinite" /></circle>
+  <circle cx="1120" r="1.8" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="2.6s" begin="0.9s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.6s" begin="0.9s" repeatCount="indefinite" /></circle>
+  <circle cx="1180" r="2.2" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="4.8s" begin="2s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="4.8s" begin="2s" repeatCount="indefinite" /></circle>
+  <circle cx="1240" r="1.5" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="3.3s" begin="1.6s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.3s" begin="1.6s" repeatCount="indefinite" /></circle>
+  <circle cx="1300" r="1.7" fill="#00bcd4"><animate attributeName="cy" values="-30;500" dur="2.9s" begin="0.4s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="2.9s" begin="0.4s" repeatCount="indefinite" /></circle>
+  <circle cx="1360" r="1.4" fill="#58A6FF"><animate attributeName="cy" values="-30;500" dur="3.9s" begin="2.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.8;1" dur="3.9s" begin="2.5s" repeatCount="indefinite" /></circle>
 
-  <!-- Pulsing dot on left path -->
-  <circle r="2.5" fill="#58A6FF" filter="url(#neonGlow)">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M 40 260 L 80 260 L 110 230 L 170 230 L 200 200 L 260 200" />
+  <!-- LEFT CIRCUIT BOARD -->
+  <path d="M 50 350 L 100 350 L 140 310 L 200 310 L 240 270 L 310 270" fill="none" stroke="#58A6FF" stroke-width="1.8" opacity="0.35" />
+  <circle cx="50" cy="350" r="4" fill="#58A6FF" opacity="0.6" filter="url(#neonGlow)" />
+  <circle cx="310" cy="270" r="4" fill="#58A6FF" opacity="0.6" filter="url(#neonGlow)" />
+  <!-- Traveling dot -->
+  <circle r="3" fill="#58A6FF" filter="url(#neonGlow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 50 350 L 100 350 L 140 310 L 200 310 L 240 270 L 310 270" />
+  </circle>
+  <!-- Branch path -->
+  <path d="M 140 310 L 170 340 L 230 340" fill="none" stroke="#58A6FF" stroke-width="1.2" opacity="0.2" />
+  <circle r="2" fill="#58A6FF">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M 140 310 L 170 340 L 230 340" />
   </circle>
 
-  <!-- Right circuit path -->
-  <path d="M 940 210 L 980 190 L 1020 200 L 1060 170 L 1100 180 L 1160 130" fill="none" stroke="#00bcd4" stroke-width="1.5" opacity="0.3" />
-  <circle cx="940" cy="210" r="3" fill="#00bcd4" opacity="0.5" />
-  <circle cx="1160" cy="130" r="3" fill="#00bcd4" opacity="0.5" />
-
-  <!-- Pulsing dot on right path -->
-  <circle r="2.5" fill="#00bcd4" filter="url(#neonGlow)">
-    <animateMotion dur="5s" repeatCount="indefinite" path="M 940 210 L 980 190 L 1020 200 L 1060 170 L 1100 180 L 1160 130" />
+  <!-- RIGHT CIRCUIT BOARD -->
+  <path d="M 1090 280 L 1140 250 L 1190 260 L 1240 220 L 1290 230 L 1350 180" fill="none" stroke="#00bcd4" stroke-width="1.8" opacity="0.35" />
+  <circle cx="1090" cy="280" r="4" fill="#00bcd4" opacity="0.6" filter="url(#neonGlow)" />
+  <circle cx="1350" cy="180" r="4" fill="#00bcd4" opacity="0.6" filter="url(#neonGlow)" />
+  <!-- Traveling dot -->
+  <circle r="3" fill="#00bcd4" filter="url(#neonGlow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M 1090 280 L 1140 250 L 1190 260 L 1240 220 L 1290 230 L 1350 180" />
+  </circle>
+  <!-- Branch path -->
+  <path d="M 1190 260 L 1220 300 L 1280 300" fill="none" stroke="#00bcd4" stroke-width="1.2" opacity="0.2" />
+  <circle r="2" fill="#00bcd4">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M 1190 260 L 1220 300 L 1280 300" />
   </circle>
 
-  <!-- Top accent line -->
-  <rect x="460" y="55" width="280" height="2" fill="url(#accent)" opacity="0.3" rx="1" />
+  <!-- Top thin accent bar -->
+  <rect x="530" y="70" width="340" height="2" fill="url(#accent)" opacity="0.25" rx="1" />
 
-  <!-- Animated horizontal line under name -->
-  <line x1="460" y1="180" x2="740" y2="180" stroke="url(#accent)" stroke-width="1.5" opacity="0.6">
-    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite" />
+  <!-- ===== PRIMARY TEXT ===== -->
+  <text x="700" y="150" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="76" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="8" filter="url(#softGlow)">AMANUEL</text>
+  <text x="700" y="210" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="64" font-weight="300" fill="#8B949E" text-anchor="middle" letter-spacing="7">TESFAYE</text>
+
+  <!-- Animated divider line -->
+  <line x1="530" y1="240" x2="870" y2="240" stroke="url(#accent)" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="opacity" values="0.15;0.5;0.15" dur="3s" repeatCount="indefinite" />
   </line>
 
-  <!-- Main text -->
-  <text x="600" y="110" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="56" font-weight="700" fill="#F0F6FC" text-anchor="middle" letter-spacing="6" filter="url(#softGlow)">AMANUEL</text>
-  <text x="600" y="155" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="46" font-weight="400" fill="#8B949E" text-anchor="middle" letter-spacing="5">TESFAYE</text>
-
-  <!-- Tagline with typing cursor effect -->
-  <text x="600" y="210" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="16" fill="#58A6FF" text-anchor="middle" letter-spacing="4" opacity="0.8">building at the intersection</text>
-  <text x="780" y="210" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="16" fill="#58A6FF" text-anchor="middle">
-    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" />
-    |
+  <!-- Tagline with blinking cursor -->
+  <text x="700" y="285" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="20" fill="#58A6FF" text-anchor="middle" letter-spacing="6" opacity="0.85" filter="url(#neonGlow)">building at the intersection</text>
+  <text x="920" y="285" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="20" fill="#58A6FF" text-anchor="middle" filter="url(#neonGlow)">
+    <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite" />
+    ▎
   </text>
 
-  <!-- Bottom bar -->
-  <text x="600" y="250" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="13" fill="#484F58" text-anchor="middle" letter-spacing="4">BUSINESS  •  ENGINEERING  •  SOFTWARE</text>
+  <!-- Subtitle bar -->
+  <text x="700" y="335" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="16" fill="#484F58" text-anchor="middle" letter-spacing="6">BUSINESS  ◆  ENGINEERING  ◆  SOFTWARE</text>
 
   <!-- Location -->
-  <text x="600" y="285" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" fill="#3D4450" text-anchor="middle" letter-spacing="3">ADDIS ABABA, ETHIOPIA</text>
+  <text x="700" y="380" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="13" fill="#3D4450" text-anchor="middle" letter-spacing="4">ADDIS ABABA, ETHIOPIA</text>
 
 </svg>
