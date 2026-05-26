@@ -9,14 +9,6 @@
       <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#00bcd4" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="glowLeft" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="glowRight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00bcd4" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#00bcd4" stop-opacity="0" />
-    </linearGradient>
     <filter id="neonGlow">
       <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
@@ -31,13 +23,6 @@
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    <filter id="bigGlow">
-      <feGaussianBlur stdDeviation="15" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
   </defs>
 
   <!-- Background -->
@@ -46,10 +31,6 @@
     <circle cx="2" cy="2" r="0.9" fill="#1E2D3D" />
   </pattern>
   <rect width="1400" height="460" fill="url(#dotGrid)" />
-
-  <!-- Ambient side glows -->
-  <rect x="0" y="0" width="300" height="460" fill="url(#glowLeft)" />
-  <rect x="1100" y="0" width="300" height="460" fill="url(#glowRight)" />
 
   <!-- Big glow halo behind name -->
   <ellipse cx="700" cy="180" rx="450" ry="140" fill="url(#glowCenter)" />
