@@ -127,5 +127,5 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 ---
 
-<sub>↻ daily push — June 8, 2026</sub>
+<sub>↻ daily sync — June 8, 2026</sub>
 </p>
