@@ -109,6 +109,14 @@ I'm a Business Administration student at **American College of Technology (ACT)*
   </table>
 </p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amanuel-Tesfaye-R&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amanuel-Tesfaye-R&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
+</p>
+
 ---
 
 ### Certifications
@@ -121,14 +129,14 @@ I'm a Business Administration student at **American College of Technology (ACT)*
           <img src="certifications/HTML_Essentials.jpg" width="320" alt="HTML Essentials" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
         </a><br/>
         <b>HTML Essentials</b><br/>
-        <sub>Cisco Networking Academy</sub>
+        <a href="certifications/HTML_Essentials.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
       </td>
       <td align="center">
         <a href="certifications/CSS_Essentials.pdf">
           <img src="certifications/CSS_Essentials.jpg" width="320" alt="CSS Essentials" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
         </a><br/>
         <b>CSS Essentials</b><br/>
-        <sub>Cisco Networking Academy</sub>
+        <a href="certifications/CSS_Essentials.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
       </td>
     </tr>
     <tr>
@@ -137,27 +145,17 @@ I'm a Business Administration student at **American College of Technology (ACT)*
           <img src="certifications/JavaScript_Essentials_1.jpg" width="320" alt="JavaScript Essentials 1" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
         </a><br/>
         <b>JavaScript Essentials 1</b><br/>
-        <sub>Cisco Networking Academy</sub>
+        <a href="certifications/JavaScript_Essentials_1.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
       </td>
       <td align="center">
         <a href="certifications/JavaScript_Essentials_2.pdf">
           <img src="certifications/JavaScript_Essentials_2.jpg" width="320" alt="JavaScript Essentials 2" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
         </a><br/>
         <b>JavaScript Essentials 2</b><br/>
-        <sub>Cisco Networking Academy</sub>
+        <a href="certifications/JavaScript_Essentials_2.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
       </td>
     </tr>
   </table>
-</p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amanuel-Tesfaye-R&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Amanuel-Tesfaye-R&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF" width="100%" />
 </p>
 
 ---
