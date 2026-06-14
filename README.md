@@ -114,10 +114,40 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 ### Certifications
 
 <p align="center">
-  <a href="certifications/HTML_Essentials.pdf"><img src="https://img.shields.io/badge/HTML_Essentials-Cisco-1BA0D7?style=for-the-badge&logo=html5&logoColor=white" /></a>
-  <a href="certifications/CSS_Essentials.pdf"><img src="https://img.shields.io/badge/CSS_Essentials-Cisco-1BA0D7?style=for-the-badge&logo=css3&logoColor=white" /></a>
-  <a href="certifications/JavaScript_Essentials_1.pdf"><img src="https://img.shields.io/badge/JS_Essentials_1-Cisco-1BA0D7?style=for-the-badge&logo=javascript&logoColor=white" /></a>
-  <a href="certifications/JavaScript_Essentials_2.pdf"><img src="https://img.shields.io/badge/JS_Essentials_2-Cisco-1BA0D7?style=for-the-badge&logo=javascript&logoColor=white" /></a>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="certifications/HTML_Essentials.pdf">
+          <img src="certifications/HTML_Essentials.jpg" width="320" alt="HTML Essentials" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
+        </a><br/>
+        <b>HTML Essentials</b><br/>
+        <sub>Cisco Networking Academy</sub>
+      </td>
+      <td align="center">
+        <a href="certifications/CSS_Essentials.pdf">
+          <img src="certifications/CSS_Essentials.jpg" width="320" alt="CSS Essentials" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
+        </a><br/>
+        <b>CSS Essentials</b><br/>
+        <sub>Cisco Networking Academy</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="certifications/JavaScript_Essentials_1.pdf">
+          <img src="certifications/JavaScript_Essentials_1.jpg" width="320" alt="JavaScript Essentials 1" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
+        </a><br/>
+        <b>JavaScript Essentials 1</b><br/>
+        <sub>Cisco Networking Academy</sub>
+      </td>
+      <td align="center">
+        <a href="certifications/JavaScript_Essentials_2.pdf">
+          <img src="certifications/JavaScript_Essentials_2.jpg" width="320" alt="JavaScript Essentials 2" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
+        </a><br/>
+        <b>JavaScript Essentials 2</b><br/>
+        <sub>Cisco Networking Academy</sub>
+      </td>
+    </tr>
+  </table>
 </p>
 
 ---
