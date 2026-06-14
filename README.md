@@ -15,7 +15,7 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 - **Full Stack Web Development** - React, Node.js, REST APIs, the usual stack
 - **Responsive & Modern UI Design** - Interfaces that don't get in the way
 - **3D Modeling & Product Design** - Blender, Figma, prototyping
-- **Git/GitHub Workflow & Deployment** - Shipping, maintaining, not breaking things
+- **Git/GitHub Workflow & Deployment** - Version control, CI/CD, deployment pipelines
 
 ---
 
