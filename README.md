@@ -102,11 +102,22 @@ I'm a Business Administration student at **American College of Technology (ACT)*
       </td>
       <td align="center">
         <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-globe.svg" width="96" /><br/>
-        <b>Cisco HTML Essentials</b><br/>
-        <sub>Networking Academy 2026</sub>
+        <b>Cisco Networking Academy</b><br/>
+        <sub>HTML, CSS, JS Essentials</sub>
       </td>
     </tr>
   </table>
+</p>
+
+---
+
+### Certifications
+
+<p align="center">
+  <a href="certifications/HTML_Essentials.pdf"><img src="https://img.shields.io/badge/HTML_Essentials-Cisco-1BA0D7?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="certifications/CSS_Essentials.pdf"><img src="https://img.shields.io/badge/CSS_Essentials-Cisco-1BA0D7?style=for-the-badge&logo=css3&logoColor=white" /></a>
+  <a href="certifications/JavaScript_Essentials_1.pdf"><img src="https://img.shields.io/badge/JS_Essentials_1-Cisco-1BA0D7?style=for-the-badge&logo=javascript&logoColor=white" /></a>
+  <a href="certifications/JavaScript_Essentials_2.pdf"><img src="https://img.shields.io/badge/JS_Essentials_2-Cisco-1BA0D7?style=for-the-badge&logo=javascript&logoColor=white" /></a>
 </p>
 
 ---
