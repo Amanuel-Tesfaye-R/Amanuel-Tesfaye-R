@@ -2,20 +2,20 @@
   <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/at-header.svg" alt="Amanuel Tesfaye" width="100%" />
 </p>
 
-I'm a Business Administration student at **American College of Technology (ACT)** and pursuing Full Stack Development through **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I build at the intersection of business, engineering, and software turning ideas into systems that actually work.
+I'm a Business Administration student at **American College of Technology (ACT)** and pursuing Full Stack Development through **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I work across business, engineering, and software building things that do what they're supposed to do.
 
 ---
 
 ### What I Do
 
-- **Business & Technology Integration** — strategy meets execution
-- **Financial Market Tool Development** — Pine Script v6, market structure analysis
-- **Embedded Systems Projects** — hardware that talks to software
-- **AI Agents & Automation Systems** — intelligent workflows
-- **Full Stack Web Development** — React, Node.js, REST APIs
-- **Responsive & Modern UI Design** — interfaces that feel right
-- **3D Modeling & Product Design** — from concept to prototype
-- **Git/GitHub Workflow & Deployment** — ship with confidence
+- **Business & Technology Integration** - Strategy and execution, systems that actually get used
+- **Financial Market Tool Development** - Pine Script v6, market structure analysis
+- **Embedded Systems Projects** - Hardware controlled by code, prototypes that prove a point
+- **AI Agents & Automation Systems** - Workflows that save time instead of creating more work
+- **Full Stack Web Development** - React, Node.js, REST APIs, the usual stack
+- **Responsive & Modern UI Design** - Interfaces that don't get in the way
+- **3D Modeling & Product Design** - Blender, Figma, prototyping
+- **Git/GitHub Workflow & Deployment** - Shipping, maintaining, not breaking things
 
 ---
 
