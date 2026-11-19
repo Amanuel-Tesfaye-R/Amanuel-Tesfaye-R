@@ -8,13 +8,12 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 ### What I Do
 
-- **Business & Technology Integration** - Strategy and execution, systems that actually get used
-- **Financial Market Tool Development** - Pine Script v6, market structure analysis
-- **Embedded Systems Projects** - Hardware controlled by code, prototypes that prove a point
-- **AI Agents & Automation Systems** - Workflows that save time instead of creating more work
-- **Full Stack Web Development** - React, Node.js, REST APIs, the usual stack
-- **Responsive & Modern UI Design** - Interfaces that don't get in the way
-- **3D Modeling & Product Design** - Blender, Figma, prototyping
+- **Autonomous AI & System Agents** - Persistent digital allies, headless daemons, local speech engines, and custom agent architectures
+- **Full-Stack Systems Architecture** - High-velocity applications built with Next.js, TypeScript, Supabase, and real-time data layers
+- **Business Operations & ERPs** - Custom management systems, inventory engines, and software engineered around actual unit economics
+- **Biomechanical & Embedded Hardware** - Code that touches the physical world: computer-integrated prosthetics, skeletal motion capture, and embedded controllers
+- **Financial Market Tool Development** - Algorithmic models, Pine Script v6 indicators, and quantitative market structure analysis
+- **Product Design & Prototyping** - Modern, distraction-free interfaces in Figma, paired with functional 3D models in Blender
 
 ---
 
@@ -23,14 +22,14 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 **Software Development**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="Embedded C" width="45" height="45" title="Embedded C" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="45" height="45" title="HTML5" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="45" height="45" title="CSS3" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="45" height="45" title="TypeScript" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="45" height="45" title="JavaScript" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" width="45" height="45" title="Next.js" style="background: #ffffff; border-radius: 50%; padding: 2px;" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="45" height="45" title="React" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="45" height="45" title="Tailwind CSS" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="45" height="45" title="Node.js" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="45" height="45" title="Express.js" style="background: #ffffffcc; border-radius: 4px; padding: 3px;" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/processing/processing-original.svg" alt="Processing" width="45" height="45" title="Processing" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="45" height="45" title="Python" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="Embedded C" width="45" height="45" title="Embedded C" />
 </p>
 
 **Financial Market Technology**
@@ -43,6 +42,7 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" alt="Supabase" width="45" height="45" title="Supabase" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="45" height="45" title="PostgreSQL" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" alt="Git" width="45" height="45" title="Git" />
 </p>
 
@@ -165,5 +165,5 @@ I'm a Business Administration student at **American College of Technology (ACT)*
 
 ---
 
-<sub>↻ daily sync — June 8, 2026</sub>
+<sub>↻ daily sync - November 19, 2026</sub>
 </p>
