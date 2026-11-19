@@ -2,18 +2,20 @@
   <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/at-header.svg" alt="Amanuel Tesfaye" width="100%" />
 </p>
 
-I'm a Business Administration student at **American College of Technology (ACT)** and pursuing Full Stack Development through **Addis Ababa University (AAU)** based in Addis Ababa, Ethiopia. I work across business, engineering, and software building things that do what they're supposed to do.
+I bridge **Business Administration** (American College of Technology) and **Full Stack Systems Engineering** (Addis Ababa University) based in Addis Ababa, Ethiopia. 
+
+I approach software from the balance sheet and workflow perspective: architecting custom ERPs, quantitative financial tools, and autonomous agent systems that eliminate operational friction and solve real unit economics.
 
 ---
 
 ### What I Do
 
-- **Autonomous AI & System Agents** - Persistent digital allies, headless daemons, local speech engines, and custom agent architectures
-- **Full-Stack Systems Architecture** - High-velocity applications built with Next.js, TypeScript, Supabase, and real-time data layers
-- **Business Operations & ERPs** - Custom management systems, inventory engines, and software engineered around actual unit economics
-- **Biomechanical & Embedded Hardware** - Code that touches the physical world: computer-integrated prosthetics, skeletal motion capture, and embedded controllers
-- **Financial Market Tool Development** - Algorithmic models, Pine Script v6 indicators, and quantitative market structure analysis
-- **Product Design & Prototyping** - Modern, distraction-free interfaces in Figma, paired with functional 3D models in Blender
+- **Business Systems & ERP Architecture** - Custom enterprise platforms, inventory engines, and commercial management software built around actual unit economics and operational bottlenecks
+- **Financial Engineering & Market Technology** - Quantitative market structure models, algorithmic execution, and Pine Script v6 indicators designed for capital risk management
+- **Autonomous AI & Operational Agents** - Persistent digital allies, headless daemons, and automated agent pipelines that strip out administrative overhead
+- **Full-Stack Product Engineering** - High-velocity applications engineered with Next.js, TypeScript, Supabase, and real-time data layers for business reliability
+- **Biomechanical & Embedded Hardware** - Code that interfaces with the physical world: computer-integrated prosthetics, skeletal motion capture, and embedded controllers
+- **Commercial UI & Product Design** - Workflow-driven interfaces in Figma designed to cut user error, paired with functional 3D product models in Blender
 
 ---
 
