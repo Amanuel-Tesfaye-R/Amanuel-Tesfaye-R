@@ -13,7 +13,7 @@ I approach software from the balance sheet and workflow perspective: architectin
 - **Business Systems & ERP Architecture** - Custom enterprise platforms, inventory engines, and commercial management software built around actual unit economics and operational bottlenecks
 - **Financial Engineering & Market Technology** - Quantitative market structure models, algorithmic execution, and Pine Script v6 indicators designed for capital risk management
 - **Autonomous AI & Operational Agents** - Persistent digital allies, headless daemons, and automated agent pipelines that strip out administrative overhead
-- **Full-Stack Product Engineering** - High-velocity applications engineered with Next.js, TypeScript, Supabase, and real-time data layers for business reliability
+- **Full-Stack Systems Architecture** - Complete web platforms from database schema to user interaction, built to handle real business operations without failing
 - **Biomechanical & Embedded Hardware** - Code that interfaces with the physical world: computer-integrated prosthetics, skeletal motion capture, and embedded controllers
 - **Commercial UI & Product Design** - Workflow-driven interfaces in Figma designed to cut user error, paired with functional 3D product models in Blender
 
