@@ -2,118 +2,77 @@
   <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/at-header.svg" alt="Amanuel Tesfaye" width="100%" />
 </p>
 
-I bridge **Business Administration** (American College of Technology) and **Full Stack Systems Engineering** (Addis Ababa University) based in Addis Ababa, Ethiopia. 
+I bridge **Business Administration** (American College of Technology) and **Full Stack Systems Engineering** (Addis Ababa University) based in Addis Ababa, Ethiopia.
 
-I approach software from the balance sheet and workflow perspective: architecting custom ERPs, quantitative financial tools, and autonomous agent systems that eliminate operational friction and solve real unit economics.
+I approach software from the balance sheet and workflow perspective: architecting custom enterprise platforms, quantitative financial engines, and autonomous AI systems that eliminate operational friction and solve real unit economics.
 
 ---
 
 ### What I Do
 
-- **Business Systems & ERP Architecture** - Custom enterprise platforms, inventory engines, and commercial management software built around actual unit economics and operational bottlenecks
-- **Financial Engineering & Market Technology** - Quantitative market structure models, algorithmic execution, and Pine Script v6 indicators designed for capital risk management
-- **Autonomous AI & Operational Agents** - Persistent digital allies, headless daemons, and automated agent pipelines that strip out administrative overhead
-- **Full-Stack Systems Architecture** - Complete web platforms from database schema to user interaction, built to handle real business operations without failing
-- **Biomechanical & Embedded Hardware** - Code that interfaces with the physical world: computer-integrated prosthetics, skeletal motion capture, and embedded controllers
-- **Commercial UI & Product Design** - Workflow-driven interfaces in Figma designed to cut user error, paired with functional 3D product models in Blender
+- **Enterprise Systems & ERP Architecture** - Custom enterprise platforms, inventory engines, and commercial management software built around real-world unit economics and operational bottlenecks.
+- **Autonomous AI & Operational Agents** - Persistent digital allies, headless daemons, and automated agent pipelines that eliminate administrative overhead.
+- **Open-Source Systems & Infrastructure** - Core upstream contributor to tier-1 platforms including **Twenty** (CRM), **Langfuse** (AI observability), and **Cal.com** (scheduling).
+- **Financial Engineering & Market Technology** - Quantitative market structure models, algorithmic execution, and Pine Script v6 indicators designed for capital risk management.
+- **Biomechanical & Embedded Hardware** - Code that interfaces with physical hardware: computer-integrated prosthetics, skeletal motion capture, and embedded microcontroller drivers.
+- **Commercial UI & Product Architecture** - Workflow-driven interfaces in Figma designed to cut user error, paired with functional 3D product models in Blender.
 
 ---
 
-### Languages & Tools
+### Featured Systems & Open-Source Contributions
 
-**Software Development**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="45" height="45" title="TypeScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="45" height="45" title="JavaScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" width="45" height="45" title="Next.js" style="background: #ffffff; border-radius: 50%; padding: 2px;" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="45" height="45" title="React" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="45" height="45" title="Tailwind CSS" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="45" height="45" title="Node.js" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="45" height="45" title="Python" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="Embedded C" width="45" height="45" title="Embedded C" />
-</p>
-
-**Financial Market Technology**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Pine_Script-v6-00bcd4?style=for-the-badge&logo=tradingview&logoColor=white" alt="Pine Script v6" title="Pine Script v6" />
-</p>
-
-**Database & Tools**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" alt="Supabase" width="45" height="45" title="Supabase" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="45" height="45" title="PostgreSQL" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" alt="Git" width="45" height="45" title="Git" />
-</p>
-
-**Engineering & Hardware**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original-wordmark.svg" alt="Arduino" width="45" height="45" title="Arduino" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" width="45" height="45" title="Raspberry Pi" />
-  <img src="https://img.shields.io/badge/Visual3D-005A9C?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual3D" title="Visual3D - Skeletal Motion Capture" />
-</p>
-
-**Design & Modeling**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="Figma" width="45" height="45" title="Figma" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/blender/blender-original.svg" alt="Blender" width="45" height="45" title="Blender" />
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/twentyhq/twenty">twentyhq/twenty</a> <img src="https://img.shields.io/badge/CRM-20k%2B%20★-58A6FF?style=flat-square" /></h4>
+      <p>Upstream contribution fixing localized date-time picker navigation, dynamic month/year trigger synchronization, and weekday header translations.</p>
+      <sub>TypeScript · React · Lingui · Temporal API</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a> <img src="https://img.shields.io/badge/Observability-37k%2B%20★-58A6FF?style=flat-square" /></h4>
+      <p>Upstream fix for Cmd+K search debounce query normalization, preventing server-side ILIKE mismatches on evaluator category aliases.</p>
+      <sub>TypeScript · Next.js · TanStack Query · Prisma</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/calcom/cal.diy">calcom/cal.com</a> <img src="https://img.shields.io/badge/Scheduling-34k%2B%20★-58A6FF?style=flat-square" /></h4>
+      <p>Upstream engine fix resolving canonical IANA time zone capitalization across all 418 global zones via native <code>Intl</code> resolution with safe fallbacks.</p>
+      <sub>TypeScript · Intl API · API v2 DTOs</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Amanuel-Tesfaye-R/orions-finger">Orion's Finger</a> <img src="https://img.shields.io/badge/Hardware-Prosthetics-58A6FF?style=flat-square" /></h4>
+      <p>Computer-integrated physical prosthesis featuring custom flex sensor threshold calibration, real-time UART telemetry, and skeletal motion capture integration.</p>
+      <sub>Embedded C · Arduino · Biomechanics · Visual3D</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### Achievements
+### Languages & Core Stack
 
 <p align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-standard.svg" width="96" /><br/>
-        <b>INSA Cyber Talent</b><br/>
-        <sub>Program Graduate</sub>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-award.svg" width="96" /><br/>
-        <b>2nd Place</b><br/>
-        <sub>National Science Fair</sub>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-variant.svg" width="96" /><br/>
-        <b>Computer-Integrated Prosthesis</b><br/>
-        <sub>Built & Tested</sub>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-medal.svg" width="96" /><br/>
-        <b>Business Intelligence</b><br/>
-        <sub>Certified</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-outline.svg" width="96" /><br/>
-        <b>AI Agent Systems</b><br/>
-        <sub>Designed & Deployed</sub>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-shield.svg" width="96" /><br/>
-        <b>5+ Science Fair Certifications</b><br/>
-        <sub>High School Projects & Awards</sub>
-      </td>
-      <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R@main/trophy-globe.svg" width="96" /><br/>
-        <b>Cisco Networking Academy</b><br/>
-        <sub>HTML, CSS, JS Essentials</sub>
-      </td>
-    </tr>
-  </table>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pine_Script_v6-00bcd4?style=for-the-badge&logo=tradingview&logoColor=white" />
+  <img src="https://img.shields.io/badge/Embedded_C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
 
-### GitHub Stats
+### GitHub Telemetry
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Amanuel-Tesfaye-R&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" height="195" alt="GitHub Stats" />
@@ -126,51 +85,30 @@ I approach software from the balance sheet and workflow perspective: architectin
 
 ---
 
-### Certifications
+### Honors & Verified Credentials
 
 <p align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="certifications/HTML_Essentials.pdf">
-          <img src="certifications/HTML_Essentials.jpg" width="320" alt="HTML Essentials" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
-        </a><br/>
-        <b>HTML Essentials</b><br/>
-        <a href="certifications/HTML_Essentials.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
-      </td>
-      <td align="center">
-        <a href="certifications/CSS_Essentials.pdf">
-          <img src="certifications/CSS_Essentials.jpg" width="320" alt="CSS Essentials" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
-        </a><br/>
-        <b>CSS Essentials</b><br/>
-        <a href="certifications/CSS_Essentials.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="certifications/JavaScript_Essentials_1.pdf">
-          <img src="certifications/JavaScript_Essentials_1.jpg" width="320" alt="JavaScript Essentials 1" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
-        </a><br/>
-        <b>JavaScript Essentials 1</b><br/>
-        <a href="certifications/JavaScript_Essentials_1.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
-      </td>
-      <td align="center">
-        <a href="certifications/JavaScript_Essentials_2.pdf">
-          <img src="certifications/JavaScript_Essentials_2.jpg" width="320" alt="JavaScript Essentials 2" style="border-radius: 6px; border: 1px solid #e5e7eb;" />
-        </a><br/>
-        <b>JavaScript Essentials 2</b><br/>
-        <a href="certifications/JavaScript_Essentials_2.pdf"><img src="https://img.shields.io/badge/Cisco_Networking_Academy-1BA0D7?style=flat-square&logo=cisco&logoColor=white" /></a>
-      </td>
-    </tr>
-  </table>
+  <img src="https://img.shields.io/badge/INSA_Cyber_Talent-Program_Graduate-0D1117?style=flat-square&logo=shield&logoColor=58A6FF" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/National_Science_Fair-2nd_Place_Award-0D1117?style=flat-square&logo=trophy&logoColor=58A6FF" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Computer--Integrated_Prosthesis-Built_&_Tested-0D1117?style=flat-square&logo=cpu&logoColor=58A6FF" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Cisco_Networking_Academy-JavaScript_Essentials-0D1117?style=flat-square&logo=cisco&logoColor=1BA0D7" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Cisco_Networking_Academy-HTML_&_CSS_Essentials-0D1117?style=flat-square&logo=cisco&logoColor=1BA0D7" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Business_Intelligence-Certified-0D1117?style=flat-square&logo=googleanalytics&logoColor=58A6FF" />
 </p>
 
 ---
 
 <p align="center">
   <em>"Technology becomes powerful when business thinking and engineering precision work together."</em>
+</p>
 
----
-
-<sub>↻ daily sync - November 20, 2026</sub>
+<p align="center">
+  <sub>↻ daily sync - November 20, 2026</sub>
 </p>
