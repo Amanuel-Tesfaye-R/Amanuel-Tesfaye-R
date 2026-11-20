@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/header-sakura-slow.gif" alt="Amanuel Tesfaye - Business Intelligence &amp; Business Systems Architect" width="100%" />
+  <img src="https://raw.githubusercontent.com/Amanuel-Tesfaye-R/Amanuel-Tesfaye-R/main/header-sakura-50fps.gif" alt="Amanuel Tesfaye - Business Intelligence &amp; Business Systems Architect" width="100%" />
 </p>
 
 I bridge **Business Administration** (American College of Technology) and **Full Stack Systems Engineering** (Addis Ababa University) based in Addis Ababa, Ethiopia.
