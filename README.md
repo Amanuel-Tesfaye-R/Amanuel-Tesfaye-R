@@ -12,32 +12,32 @@ I approach software from the balance sheet and workflow perspective: architectin
 
 - **Enterprise Systems & ERP Architecture** - Custom enterprise platforms, inventory engines, and commercial management software built around real-world unit economics and operational bottlenecks.
 - **Autonomous AI & Operational Agents** - Persistent digital allies, headless daemons, and automated agent pipelines that eliminate administrative overhead.
-- **Open-Source Systems & Infrastructure** - Core upstream contributor to tier-1 platforms including **Twenty** (CRM), **Langfuse** (AI observability), and **Cal.com** (scheduling).
+- **Open-Source Systems & Telemetry** - Active contributor submitting targeted fixes and telemetry improvements for production platforms including **Twenty**, **Langfuse**, and **Cal.com**.
 - **Financial Engineering & Market Technology** - Quantitative market structure models, algorithmic execution, and Pine Script v6 indicators designed for capital risk management.
 - **Biomechanical & Embedded Hardware** - Code that interfaces with physical hardware: computer-integrated prosthetics, skeletal motion capture, and embedded microcontroller drivers.
 - **Commercial UI & Product Architecture** - Workflow-driven interfaces in Figma designed to cut user error, paired with functional 3D product models in Blender.
 
 ---
 
-### Featured Systems & Open-Source Contributions
+### Active Upstream Submissions & Systems
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/twentyhq/twenty">twentyhq/twenty</a> <img src="https://img.shields.io/badge/CRM-20k%2B%20★-58A6FF?style=flat-square" /></h4>
-      <p>Upstream contribution fixing localized date-time picker navigation, dynamic month/year trigger synchronization, and weekday header translations.</p>
+      <h4><a href="https://github.com/twentyhq/twenty/issues/30760">twentyhq/twenty #30760</a> <img src="https://img.shields.io/badge/Patch_Submitted-In_Triage-f0883e?style=flat-square" /></h4>
+      <p>Submitted fix for date-time picker navigation, dynamic month/year header synchronization, and Storybook interaction test coverage.</p>
       <sub>TypeScript · React · Lingui · Temporal API</sub>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a> <img src="https://img.shields.io/badge/Observability-37k%2B%20★-58A6FF?style=flat-square" /></h4>
-      <p>Upstream fix for Cmd+K search debounce query normalization, preventing server-side ILIKE mismatches on evaluator category aliases.</p>
+      <h4><a href="https://github.com/langfuse/langfuse/pull/20495">langfuse/langfuse #20495</a> <img src="https://img.shields.io/badge/PR_Open-In_Review-58A6FF?style=flat-square" /></h4>
+      <p>Pull request normalizing Cmd+K search debounce queries to prevent server-side evaluator search mismatches. Verified with 5/5 review confidence.</p>
       <sub>TypeScript · Next.js · TanStack Query · Prisma</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/calcom/cal.diy">calcom/cal.com</a> <img src="https://img.shields.io/badge/Scheduling-34k%2B%20★-58A6FF?style=flat-square" /></h4>
-      <p>Upstream engine fix resolving canonical IANA time zone capitalization across all 418 global zones via native <code>Intl</code> resolution with safe fallbacks.</p>
+      <h4><a href="https://github.com/calcom/cal.diy/pull/30598">calcom/cal.com #30598</a> <img src="https://img.shields.io/badge/PR_Open-In_Review-58A6FF?style=flat-square" /></h4>
+      <p>Pull request resolving canonical IANA time zone casing across all 418 global zones via native <code>Intl</code> resolution with safe fallbacks.</p>
       <sub>TypeScript · Intl API · API v2 DTOs</sub>
     </td>
     <td width="50%" valign="top">
