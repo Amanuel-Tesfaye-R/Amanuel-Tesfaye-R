@@ -172,5 +172,5 @@ I approach software from the balance sheet and workflow perspective: architectin
 
 ---
 
-<sub>↻ daily sync - November 19, 2026</sub>
+<sub>↻ daily sync - November 20, 2026</sub>
 </p>
