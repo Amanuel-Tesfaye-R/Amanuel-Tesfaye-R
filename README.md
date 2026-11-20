@@ -19,37 +19,6 @@ I approach software from the balance sheet and workflow perspective: architectin
 
 ---
 
-### Active Upstream Submissions & Systems
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/twentyhq/twenty/issues/30760">twentyhq/twenty #30760</a> <img src="https://img.shields.io/badge/Patch_Submitted-In_Triage-f0883e?style=flat-square" /></h4>
-      <p>Submitted fix for date-time picker navigation, dynamic month/year header synchronization, and Storybook interaction test coverage.</p>
-      <sub>TypeScript · React · Lingui · Temporal API</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/langfuse/langfuse/pull/20495">langfuse/langfuse #20495</a> <img src="https://img.shields.io/badge/PR_Open-In_Review-58A6FF?style=flat-square" /></h4>
-      <p>Pull request normalizing Cmd+K search debounce queries to prevent server-side evaluator search mismatches. Verified with 5/5 review confidence.</p>
-      <sub>TypeScript · Next.js · TanStack Query · Prisma</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/calcom/cal.diy/pull/30598">calcom/cal.com #30598</a> <img src="https://img.shields.io/badge/PR_Open-In_Review-58A6FF?style=flat-square" /></h4>
-      <p>Pull request resolving canonical IANA time zone casing across all 418 global zones via native <code>Intl</code> resolution with safe fallbacks.</p>
-      <sub>TypeScript · Intl API · API v2 DTOs</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Amanuel-Tesfaye-R/orions-finger">Orion's Finger</a> <img src="https://img.shields.io/badge/Hardware-Prosthetics-58A6FF?style=flat-square" /></h4>
-      <p>Computer-integrated physical prosthesis featuring custom flex sensor threshold calibration, real-time UART telemetry, and skeletal motion capture integration.</p>
-      <sub>Embedded C · Arduino · Biomechanics · Visual3D</sub>
-    </td>
-  </tr>
-</table>
-
----
-
 ### Languages & Core Stack
 
 <p align="center">
