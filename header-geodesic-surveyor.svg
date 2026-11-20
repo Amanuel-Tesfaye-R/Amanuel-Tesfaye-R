@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460">
+  <defs>
+    <!-- Titanium gradient -->
+    <linearGradient id="titanium" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B949E" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#E6EDF3" stop-opacity="1" />
+      <stop offset="100%" stop-color="#8B949E" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Geodesic grid pattern -->
+    <pattern id="geoGrid" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#151C26" stroke-width="0.75" />
+      <circle cx="0" cy="0" r="1.2" fill="#243040" />
+    </pattern>
+
+    <!-- Radial backdrop -->
+    <radialGradient id="meshGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#192330" stop-opacity="0.5" />
+      <stop offset="60%" stop-color="#0E141C" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#090D12" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Obsidian Technical Base -->
+  <rect width="1400" height="460" fill="#090D12" rx="14" />
+  <rect width="1400" height="460" fill="url(#geoGrid)" />
+  <rect x="150" y="30" width="1100" height="400" fill="url(#meshGlow)" />
+
+  <!-- ================= GEODESIC TRIANGULATION TERRAIN MESH ================= -->
+  <!-- Background wireframe triangulation vectors across the canvas -->
+  <g stroke="#1F2C3B" stroke-width="1.1" fill="none" opacity="0.75">
+    <!-- Left sector mesh -->
+    <polygon points="60,380 180,310 110,210" />
+    <polygon points="180,310 110,210 260,220" />
+    <polygon points="180,310 260,220 330,320" />
+    <polygon points="260,220 380,180 330,320" />
+    <polygon points="330,320 380,180 470,270" />
+
+    <!-- Right sector mesh -->
+    <polygon points="930,270 1020,180 1070,320" />
+    <polygon points="1020,180 1070,320 1140,220" />
+    <polygon points="1070,320 1140,220 1220,310" />
+    <polygon points="1140,220 1220,310 1290,210" />
+    <polygon points="1220,310 1290,210 1340,380" />
+
+    <!-- Horizon connecting vectors -->
+    <line x1="470" y1="270" x2="600" y2="290" stroke-dasharray="3 3" />
+    <line x1="800" y1="290" x2="930" y2="270" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- Animated Survey Laser Vectors (Traveling pulse along triangulation line) -->
+  <line x1="180" y1="310" x2="380" y2="180" stroke="#79C0FF" stroke-width="1.4" opacity="0.4" stroke-dasharray="30 200">
+    <animate attributeName="stroke-dashoffset" values="230;0" dur="3.5s" repeatCount="indefinite" />
+  </line>
+  <line x1="1020" y1="180" x2="1220" y2="310" stroke="#79C0FF" stroke-width="1.4" opacity="0.4" stroke-dasharray="30 200">
+    <animate attributeName="stroke-dashoffset" values="0;230" dur="3.8s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Triangulation Survey Nodes -->
+  <g fill="#58A6FF">
+    <!-- Peak Alpha (380, 180) -->
+    <circle cx="380" cy="180" r="3.5" />
+    <circle cx="380" cy="180" r="7" fill="none" stroke="#58A6FF" stroke-width="0.8" opacity="0.6">
+      <animate attributeName="r" values="4;9;4" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <text x="392" y="176" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="8.5" fill="#8B949E" letter-spacing="1">STN_01 // 4,120M</text>
+
+    <!-- Peak Omega (1020, 180) -->
+    <circle cx="1020" cy="180" r="3.5" />
+    <circle cx="1020" cy="180" r="7" fill="none" stroke="#58A6FF" stroke-width="0.8" opacity="0.6">
+      <animate attributeName="r" values="4;9;4" dur="2.4s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.4s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+    <text x="940" y="176" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="8.5" fill="#8B949E" letter-spacing="1">STN_02 // 4,350M</text>
+  </g>
+
+  <!-- ================= ROTATING AZIMUTH SURVEYOR COMPASS (SUBTLE) ================= -->
+  <g transform="translate(700, 235)">
+    <!-- Rotating degree dial (60s) -->
+    <circle cx="0" cy="0" r="145" fill="none" stroke="#2D3B4C" stroke-width="0.8" stroke-dasharray="2 12" opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#212C3A" stroke-width="0.75" opacity="0.4" />
+    <!-- Fine crosshairs -->
+    <line x1="-155" y1="0" x2="-135" y2="0" stroke="#3D4F65" stroke-width="1" />
+    <line x1="135" y1="0" x2="155" y2="0" stroke="#3D4F65" stroke-width="1" />
+    <line x1="0" y1="-155" x2="0" y2="-135" stroke="#3D4F65" stroke-width="1" />
+    <line x1="0" y1="135" x2="0" y2="155" stroke="#3D4F65" stroke-width="1" />
+  </g>
+
+  <!-- ================= TECHNICAL CHASSIS & CORNERS ================= -->
+  <!-- Top Technical Banner -->
+  <line x1="50" y1="42" x2="1350" y2="42" stroke="#1F2834" stroke-width="1" />
+  <text x="60" y="32" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10.5" fill="#8B949E" letter-spacing="3">
+    [ GEODESIC FIELD SURVEY // HIGH-ALTITUDE MAPPING ]
+  </text>
+  <text x="1340" y="32" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10.5" fill="#C9D1D9" text-anchor="end" letter-spacing="3">
+    AZIMUTH: 042°N · DATUM ELEV: 4,550M · ADDIS ABABA
+  </text>
+
+  <!-- Corner Brackets -->
+  <path d="M 40 60 L 40 40 L 60 40" fill="none" stroke="#48596D" stroke-width="1.8" />
+  <path d="M 1360 60 L 1360 40 L 1340 40" fill="none" stroke="#48596D" stroke-width="1.8" />
+  <path d="M 40 400 L 40 420 L 60 420" fill="none" stroke="#48596D" stroke-width="1.8" />
+  <path d="M 1360 400 L 1360 420 L 1340 420" fill="none" stroke="#48596D" stroke-width="1.8" />
+
+  <!-- ================= TYPOGRAPHY & IDENTITY ================= -->
+  <text x="700" y="150" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="78" font-weight="800" fill="#F0F6FC" text-anchor="middle" letter-spacing="12">
+    AMANUEL
+  </text>
+  <text x="700" y="210" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="62" font-weight="300" fill="#8B949E" text-anchor="middle" letter-spacing="10">
+    TESFAYE
+  </text>
+
+  <!-- Titanium Horizon Rule -->
+  <line x1="510" y1="236" x2="890" y2="236" stroke="url(#titanium)" stroke-width="1.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Monospace Tagline with subtle elevation symbol -->
+  <text x="700" y="278" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="18.5" font-weight="500" fill="#C9D1D9" text-anchor="middle" letter-spacing="6">
+    ▲  building at the intersection  ▲
+  </text>
+
+  <!-- Subtitle Core Pillars -->
+  <text x="700" y="318" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="13" font-weight="500" fill="#6E7681" text-anchor="middle" letter-spacing="5">
+    COMMERCIAL ARCHITECTURE  ·  SYSTEMS ENGINEERING  ·  AUTONOMOUS AGENTS
+  </text>
+
+  <!-- Bottom Coordinates Scale -->
+  <line x1="350" y1="410" x2="1050" y2="410" stroke="#1C2735" stroke-width="1" />
+  <line x1="350" y1="405" x2="350" y2="415" stroke="#3D4F65" stroke-width="1.5" />
+  <line x1="700" y1="405" x2="700" y2="415" stroke="#3D4F65" stroke-width="1.5" />
+  <line x1="1050" y1="405" x2="1050" y2="415" stroke="#3D4F65" stroke-width="1.5" />
+
+  <text x="700" y="432" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10" fill="#48596D" text-anchor="middle" letter-spacing="4">
+    GRID: UTM ZONE 37P // LAT: 09°01'48"N  LON: 038°44'24"E // ETHIOPIAN HIGHLANDS
+  </text>
+</svg>

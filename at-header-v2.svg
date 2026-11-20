@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="480" viewBox="0 0 1400 480">
+  <defs>
+    <!-- Shimmer linear gradient sweeping across the primary name -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="50%" stop-color="#58A6FF" stop-opacity="1">
+        <animate attributeName="stop-color" values="#58A6FF;#00E5FF;#79C0FF;#58A6FF" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="65%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Accent beam gradient -->
+    <linearGradient id="cyanBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0" />
+      <stop offset="20%" stop-color="#58A6FF" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="1" />
+      <stop offset="80%" stop-color="#58A6FF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Radial backdrop glow -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.08" />
+      <stop offset="60%" stop-color="#00E5FF" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Tactical HUD Glow Filters -->
+    <filter id="hudGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="intenseGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="2" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Dot Matrix Pattern -->
+    <pattern id="tacticalGrid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#1E2A38" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1400" height="480" fill="#0D1117" rx="14" />
+  <rect width="1400" height="480" fill="url(#tacticalGrid)" />
+  <rect x="200" y="40" width="1000" height="400" fill="url(#centerGlow)" />
+
+  <!-- ================= TACTICAL CHASSIS & CORNER BRACKETS ================= -->
+  <!-- Top-Left Bracket -->
+  <path d="M 30 65 L 30 30 L 65 30" fill="none" stroke="#58A6FF" stroke-width="2.2" opacity="0.75" />
+  <circle cx="30" cy="30" r="2.5" fill="#58A6FF" />
+  <line x1="30" y1="42" x2="38" y2="42" stroke="#58A6FF" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Top-Right Bracket -->
+  <path d="M 1370 65 L 1370 30 L 1335 30" fill="none" stroke="#58A6FF" stroke-width="2.2" opacity="0.75" />
+  <circle cx="1370" cy="30" r="2.5" fill="#58A6FF" />
+  <line x1="1370" y1="42" x2="1362" y2="42" stroke="#58A6FF" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Bottom-Left Bracket -->
+  <path d="M 30 415 L 30 450 L 65 450" fill="none" stroke="#58A6FF" stroke-width="2.2" opacity="0.75" />
+  <circle cx="30" cy="450" r="2.5" fill="#58A6FF" />
+  <line x1="30" y1="438" x2="38" y2="438" stroke="#58A6FF" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Bottom-Right Bracket -->
+  <path d="M 1370 415 L 1370 450 L 1335 450" fill="none" stroke="#58A6FF" stroke-width="2.2" opacity="0.75" />
+  <circle cx="1370" cy="450" r="2.5" fill="#58A6FF" />
+  <line x1="1370" y1="438" x2="1362" y2="438" stroke="#58A6FF" stroke-width="1.2" opacity="0.6" />
+
+  <!-- ================= TOP HUD TELEMETRY BAR ================= -->
+  <!-- Live Status Beacon -->
+  <g transform="translate(60, 36)">
+    <circle cx="0" cy="0" r="4.5" fill="#238636" filter="url(#hudGlow)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#238636" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="5;11;5" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="16" y="4" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="600" fill="#2EA043" letter-spacing="2">CORE_ONLINE // SYS_ID: AT-01</text>
+  </g>
+
+  <!-- Coordinates & Geolocation Stamp -->
+  <text x="1340" y="40" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" fill="#8B949E" text-anchor="end" letter-spacing="2">
+    GEO: <tspan fill="#58A6FF">09°01'48"N</tspan> · <tspan fill="#00E5FF">038°44'24"E</tspan> · ADDIS ABABA [ELEV: 2,355M]
+  </text>
+
+  <!-- Top hairline border -->
+  <line x1="60" y1="52" x2="1340" y2="52" stroke="#21262D" stroke-width="1" stroke-dasharray="4 6" />
+
+  <!-- ================= BACKGROUND ROTATING RADAR RETICLE ================= -->
+  <g transform="translate(700, 240)">
+    <!-- Outer dashed compass ring (clockwise) -->
+    <circle cx="0" cy="0" r="165" fill="none" stroke="#58A6FF" stroke-width="1" stroke-dasharray="8 16 2 16" opacity="0.12">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Inner segmented reticle (counter-clockwise) -->
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#00E5FF" stroke-width="1.2" stroke-dasharray="35 25" opacity="0.15">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="35s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Crosshair axes -->
+    <line x1="-180" y1="0" x2="-140" y2="0" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
+    <line x1="140" y1="0" x2="180" y2="0" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
+    <line x1="0" y1="-180" x2="0" y2="-140" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
+    <line x1="0" y1="140" x2="0" y2="180" stroke="#58A6FF" stroke-width="1" opacity="0.2" />
+  </g>
+
+  <!-- ================= THREE-TIER PARTICLE PHYSICS ================= -->
+  <!-- Falling Rain Drops (Staggered Speeds & Offsets) -->
+  <g fill="#58A6FF">
+    <circle cx="90" r="1.8"><animate attributeName="cy" values="-10;490" dur="2.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.75;0" dur="2.8s" repeatCount="indefinite" /></circle>
+    <circle cx="170" r="1.3"><animate attributeName="cy" values="-10;490" dur="3.6s" begin="0.7s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.6;0" dur="3.6s" begin="0.7s" repeatCount="indefinite" /></circle>
+    <circle cx="260" r="2.0"><animate attributeName="cy" values="-10;490" dur="2.4s" begin="1.4s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.8;0" dur="2.4s" begin="1.4s" repeatCount="indefinite" /></circle>
+    <circle cx="370" r="1.5"><animate attributeName="cy" values="-10;490" dur="4.1s" begin="2.1s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.5;0" dur="4.1s" begin="2.1s" repeatCount="indefinite" /></circle>
+    <circle cx="1030" r="1.6"><animate attributeName="cy" values="-10;490" dur="3.1s" begin="0.4s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0" dur="3.1s" begin="0.4s" repeatCount="indefinite" /></circle>
+    <circle cx="1140" r="2.1"><animate attributeName="cy" values="-10;490" dur="2.7s" begin="1.8s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.85;0" dur="2.7s" begin="1.8s" repeatCount="indefinite" /></circle>
+    <circle cx="1230" r="1.2"><animate attributeName="cy" values="-10;490" dur="4.4s" begin="0.9s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.5;0" dur="4.4s" begin="0.9s" repeatCount="indefinite" /></circle>
+    <circle cx="1310" r="1.7"><animate attributeName="cy" values="-10;490" dur="3.3s" begin="2.5s" repeatCount="indefinite" /><animate attributeName="opacity" values="0;0.7;0" dur="3.3s" begin="2.5s" repeatCount="indefinite" /></circle>
+  </g>
+
+  <!-- Rising Cybernetic Embers (Slow Sway Drift) -->
+  <circle cx="210" r="2.2" fill="#00E5FF" opacity="0">
+    <animate attributeName="cy" values="470;10" dur="11s" repeatCount="indefinite" begin="1s" />
+    <animate attributeName="cx" values="210;235;210" dur="5.5s" repeatCount="indefinite" begin="1s" />
+    <animate attributeName="opacity" values="0;0.35;0.35;0" keyTimes="0;0.1;0.8;1" dur="11s" repeatCount="indefinite" begin="1s" />
+  </circle>
+  <circle cx="1190" r="2.4" fill="#58A6FF" opacity="0">
+    <animate attributeName="cy" values="470;10" dur="13s" repeatCount="indefinite" begin="3s" />
+    <animate attributeName="cx" values="1190;1165;1190" dur="6.5s" repeatCount="indefinite" begin="3s" />
+    <animate attributeName="opacity" values="0;0.3;0.3;0" keyTimes="0;0.1;0.8;1" dur="13s" repeatCount="indefinite" begin="3s" />
+  </circle>
+
+  <!-- ================= LEFT CIRCUIT BUS & ACTIVE DATA PACKETS ================= -->
+  <!-- Circuit Trace Line -->
+  <path d="M 45 370 L 110 370 L 155 325 L 230 325 L 275 280 L 370 280" fill="none" stroke="#58A6FF" stroke-width="1.8" opacity="0.4" />
+  <circle cx="45" cy="370" r="3.5" fill="#58A6FF" opacity="0.7" />
+  <circle cx="370" cy="280" r="3.5" fill="#58A6FF" opacity="0.7" />
+  
+  <!-- Fast Traveling Data Pulse Packet -->
+  <circle r="3.2" fill="#58A6FF" filter="url(#intenseGlow)">
+    <animateMotion dur="4.2s" repeatCount="indefinite" path="M 45 370 L 110 370 L 155 325 L 230 325 L 275 280 L 370 280" />
+  </circle>
+
+  <!-- Branch Circuit -->
+  <path d="M 155 325 L 185 355 L 255 355" fill="none" stroke="#00E5FF" stroke-width="1.2" opacity="0.25" />
+  <circle r="2.2" fill="#00E5FF" filter="url(#hudGlow)">
+    <animateMotion dur="3.4s" begin="1.2s" repeatCount="indefinite" path="M 155 325 L 185 355 L 255 355" />
+  </circle>
+
+  <!-- ================= RIGHT CIRCUIT BUS & ACTIVE DATA PACKETS ================= -->
+  <!-- Circuit Trace Line -->
+  <path d="M 1030 280 L 1125 280 L 1170 325 L 1245 325 L 1290 370 L 1355 370" fill="none" stroke="#00E5FF" stroke-width="1.8" opacity="0.4" />
+  <circle cx="1030" cy="280" r="3.5" fill="#00E5FF" opacity="0.7" />
+  <circle cx="1355" cy="370" r="3.5" fill="#00E5FF" opacity="0.7" />
+
+  <!-- Fast Traveling Data Pulse Packet -->
+  <circle r="3.2" fill="#00E5FF" filter="url(#intenseGlow)">
+    <animateMotion dur="4.6s" repeatCount="indefinite" path="M 1030 280 L 1125 280 L 1170 325 L 1245 325 L 1290 370 L 1355 370" />
+  </circle>
+
+  <!-- Branch Circuit -->
+  <path d="M 1245 325 L 1215 355 L 1145 355" fill="none" stroke="#58A6FF" stroke-width="1.2" opacity="0.25" />
+  <circle r="2.2" fill="#58A6FF" filter="url(#hudGlow)">
+    <animateMotion dur="3.8s" begin="0.8s" repeatCount="indefinite" path="M 1245 325 L 1215 355 L 1145 355" />
+  </circle>
+
+  <!-- ================= PRIMARY TYPOGRAPHY & IDENTITY ================= -->
+  <!-- Shimmering Full Name -->
+  <text x="700" y="160" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="78" font-weight="800" fill="url(#shimmer)" text-anchor="middle" letter-spacing="10" filter="url(#hudGlow)">
+    AMANUEL
+  </text>
+  <text x="700" y="222" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="62" font-weight="300" fill="#8B949E" text-anchor="middle" letter-spacing="9">
+    TESFAYE
+  </text>
+
+  <!-- High-Precision Animated Energy Divider -->
+  <g>
+    <line x1="480" y1="248" x2="920" y2="248" stroke="url(#cyanBeam)" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" />
+    </line>
+    <circle cx="480" cy="248" r="3.5" fill="#58A6FF" filter="url(#hudGlow)" />
+    <circle cx="920" cy="248" r="3.5" fill="#00E5FF" filter="url(#hudGlow)" />
+  </g>
+
+  <!-- Interactive Terminal Tagline with Blinking Prompt Cursor -->
+  <g transform="translate(700, 292)">
+    <text x="-12" y="0" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="20" font-weight="500" fill="#58A6FF" text-anchor="middle" letter-spacing="5" filter="url(#hudGlow)">
+      building at the intersection
+    </text>
+    <!-- Solid Blinking Block Cursor -->
+    <rect x="208" y="-16" width="10" height="20" fill="#00E5FF" filter="url(#intenseGlow)">
+      <animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Tactical Core Discipline Pillars -->
+  <text x="700" y="338" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="14.5" font-weight="600" fill="#6E7681" text-anchor="middle" letter-spacing="5">
+    <tspan fill="#79C0FF">BUSINESS SYSTEMS</tspan>  ◆  <tspan fill="#58A6FF">SOFTWARE ARCHITECTURE</tspan>  ◆  <tspan fill="#00E5FF">AUTONOMOUS AGENTS</tspan>
+  </text>
+
+  <!-- ================= BOTTOM TELEMETRY OSCILLOSCOPE ================= -->
+  <!-- Telemetry Baseline Track -->
+  <line x1="280" y1="418" x2="1120" y2="418" stroke="#21262D" stroke-width="1.2" />
+
+  <!-- Active Telemetry Heartbeat / Data Waveform -->
+  <path d="M 280 418 L 470 418 L 485 404 L 500 432 L 515 394 L 530 426 L 545 418 L 855 418 L 870 406 L 885 430 L 900 400 L 915 424 L 930 418 L 1120 418"
+        fill="none" stroke="#58A6FF" stroke-width="1.6" opacity="0.65" stroke-dasharray="140 700">
+    <animate attributeName="stroke-dashoffset" values="840;0" dur="4s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Live Pulse Scan Node traveling across the telemetry wave -->
+  <circle r="3.5" fill="#00E5FF" filter="url(#intenseGlow)">
+    <animateMotion dur="4s" repeatCount="indefinite"
+                   path="M 280 418 L 470 418 L 485 404 L 500 432 L 515 394 L 530 426 L 545 418 L 855 418 L 870 406 L 885 430 L 900 400 L 915 424 L 930 418 L 1120 418" />
+  </circle>
+
+  <!-- Bottom Terminal Status Tag -->
+  <text x="700" y="445" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="11" fill="#484F58" text-anchor="middle" letter-spacing="4">
+    SYSTEM INTEGRITY: 100% // CONTINUOUS TELEMETRY STREAM
+  </text>
+</svg>
